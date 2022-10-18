@@ -1,2 +1,13 @@
+/* The following code will be used to set up the body and border
+for visibility!!!! */
+*{
+    border:1px solid red;
+    margin: 0;
+}
+/* Adjust body height to 100% */
+body{
+    height: 100vh;
+}
+/* Testing element */
 h1{background-color:purple;
 text-align:center}
