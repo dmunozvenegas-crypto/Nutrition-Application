@@ -1,7 +1,7 @@
 /* The following code will be used to set up the body and border
 for visibility!!!! */
 *{
-    border:1px solid red;
+    /* border:1px solid lightgreen; */
     margin: 0;
 }
 /* Adjust body height to 100% */
@@ -11,3 +11,13 @@ body{
 /* Testing element */
 h1{background-color:purple;
 text-align:center}
+
+/* accessing container create hero image will make it not use component */
+.daddy-hero{
+    background-image:url("https://tse4.explicit.bing.net/th?id=OIP.2E339sidmjcG17c_AiXbawHaCd&pid=Api&P=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    opacity: 0.75;
+}
