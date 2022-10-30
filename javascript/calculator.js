@@ -1,48 +1,8 @@
-
-// const header = document.getElementById('header');
-// header.addEventListener("click", function changeCon(){
-// document.getElementById('header').innerHTML=("Welcome Ready to Make the Change")
-// })
-// alert("Hello World!!!!")
-
-
-// gain access of button on screen to make change on 
-
-// functions that will take care of user data
-
-
-// let query = "mushroom risotto";
-// let url = "https://api.calorieninjas.com/v1/recipe?query=" + query;
-// fetch(url,{mthod:'GET',
-//               mode:'no-cors',
-//               url:'https://api.calorieninjas.com/v1/recipe?query=' + query,
-//               headers:{'X-Api-Key':'2nr5jdIXl39vMvMl49VhHw==9PJb6HID2szpuhSz'}
-// })
-
-//     .then((res) => {
-//         if (res.status === 400 ) {
-//             throw new Error('your error message here');
-//         }
-//         return res.json();
-//     })6
-//     .then(json => {
-//         // handle response normally here
-//     })
-//     .catch(ex => {
-//         // handle errors here
-//     });
-// fetching api for project 
-
-
-// var query = 'mushroom risotto'
-// axios({mthod:'GET',
-//               mode:'no-cors',
-//               ur:'https://api.calorieninjas.com/v1/recipe?query=' + query,
-//               headers:{'X-Api-Key':'2nr5jdIXl39vMvMl49VhHw==9PJb6HID2szpuhSz'},
-//               contentType:'application/json'
-// })
-// .then(res=>console.lof(res))
-
+// Control for calculator 
+// automate functionality 
+// handle all user data and work with it 
+// in the frontend and backend 
+// first thing that needs to be done is connect the user data with 
 // will be used to temp hold user data before moving into class parameters
 // Obtaining user input 
 let userInput = parseInt(prompt("Please Insert Your information"))

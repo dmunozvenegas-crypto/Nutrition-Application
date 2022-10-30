@@ -15,7 +15,7 @@ Git checkout -b [branch_name]: ----reminder to create a new branch once set up i
 # Explanations
 
 ##### html
-The following html will contain all different pages for out web, mobile application, sign in page, userinformation, 
+The following html will contain all different pages for out web, mobile application, sign in page, userinformation, page dedicated to all different kind of calculators. webpage to show meals
 
 # Explanations
 
