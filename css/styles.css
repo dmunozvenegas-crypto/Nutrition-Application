@@ -1,8 +1,9 @@
 /* The following code will be used to set up the body and border
 for visibility!!!! */
+html, body {width: auto!important; overflow-x: hidden!important} 
 *{
     /* border:1px solid lightgreen; */
-    margin: 0;
+    margin: 1;
 }
 /* Adjust body height to 100% */
 body{
@@ -10,8 +11,8 @@ body{
 }
 /* Testing element */
 
-h1{background-color:purple;
-text-align:center}
+/* h1{background-color:purple;
+text-align:center} */
 
 /* accessing container create hero image will make it not use component */
 .daddy-hero{
@@ -19,6 +20,12 @@ text-align:center}
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: 60vh;
     opacity: 0.75;
+}
+.bd-placeholder-img{
+    background-image:url("https://tse3.mm.bing.net/th?id=OIP.d3C-FVU8D7owsyl4uD2TMAAAAA&pid=Api&P=0");
+}
+.testing{
+    margin-top:10rem;
 }

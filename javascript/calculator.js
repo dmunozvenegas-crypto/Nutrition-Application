@@ -54,48 +54,45 @@ class Ingredients{
     }
 }
 // bmi formula turned into bmi functions
-function bmi(x,y){
-    return x/y^2;
+let testingBmi = [190,5,90];
+function bmi(array){
+    let temp = array[0]/array[1]^2;
+     return temp;
 }
-
+console.log("the result for the bmi calculation")
+let firstBmi = bmi(testingBmi);
+console.log(firstBmi);
 
 // will be connected to the form & manage
 // intial interaction to get user data
 // empty global object array 
-
 let data = [];
-
 // empty global variables
 // retrieve and store 
 // store final data will be used 
-
 let w;
 let h; 
 let a;
-
 // above vars need the function to iterate onc
 // user prompt outside first get data in variables
 // pass to function and return an array
 // function userInput purpose is to get and send 
 // once we obtain data 
-
-function userInput(){
+// function userInput(){
+//       console.log("Enter weight in lbs");
+//       console.log("Enter your weight, height, age");
+//       for(let i = 0; i<3; i++ ){
+//           let temp = parseInt(prompt())
+//           data.push(temp);
+//     }
     
-      console.log("Enter weight in lbs");
-      console.log("Enter your weight, height, age");
-      for(let i = 0; i<3; i++ ){
-          let temp = parseInt(prompt())
-          data.push(temp);
-          
-    }
+//     // extracting data from the function
+//       return data;
     
-    // extracting data from the function
-      return data;
-    
-}
+// }
 
 // function invocation 
-userInput();
+// userInput();
 
 // first data check 
 console.log(data)
@@ -112,7 +109,7 @@ let testCaseFour = [-12,5.3,28];  // fail
 function num(array){
       // check if if input is number 
       //  & weight<0 & height < 0 & age <0
-    console.log(data[0])
+    console.log(array[0])
     if(isNaN(array[0]) & isNaN(array[1]) & isNaN(array[2])){
     console.log("Please input a number")
     }
@@ -122,7 +119,7 @@ function num(array){
 }
 // 
 console.log("Testing function for functionality ")
-num(testCaseOne);
+num(testCaseTwo);
 // test object element for primitive
 // retrieve array of strings since not primitive will handle data casting
 console.log("Testing case two data type conversion\n" + testCaseTwo);
