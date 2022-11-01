@@ -93,6 +93,27 @@ class Ingredients{
         this.nutrition = nutrition;
     }
 }
+class SignIn{
+    SignIn()
+}
+
+
+class Credentials{
+    Credentials(id,password,email,phone){
+        this.id = id;
+        this.password = password;
+        this.email = email;
+        this.phone = phone;
+    }
+}
+
+
+
+
+
+
+
+
 // bmi formula turned into bmi functions
 // function bmi(x,y){
 //     return x/y^2;
